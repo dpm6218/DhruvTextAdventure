@@ -3,9 +3,7 @@ public class Enemy {
     protected int hp;
     protected int damage;
 
-    protected String line;
-    protected String height;
-    protected int weight;
+
     public int speed;
 
     public Enemy(String name, int hp, int damage){
@@ -13,14 +11,7 @@ public class Enemy {
         this.hp = hp;
         this.damage = damage;
     }
-    public Enemy(String name, int hp, int damage, String line, String height, int weight){
-        this.name = name;
-        this.hp = hp;
-        this.damage = damage;
-        this.line = line;
-        this.height = height;
-        this.weight = weight;
-    }
+
     public Enemy(String name, int hp, int damage, int speed){
         this.name = name;
         this.hp = hp;

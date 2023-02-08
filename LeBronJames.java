@@ -1,5 +1,11 @@
 public class LeBronJames extends Enemy{
-    public LeBronJames(){
-        super("LeBron James", 999, 50, "Want a Sprite Cranberry?", "6 Foot 9", 250);
+    protected String line;
+    protected String height;
+    protected int weight;
+    public LeBronJames(String line, String height, int weight){
+        super("LeBron James", 999, 50);
+        this.line = line;
+        this.height = height;
+        this.weight = weight;
     }
 }

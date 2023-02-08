@@ -18,13 +18,14 @@ public class Main {
         Zombie slowZombie = new Zombie();
         Zombie fastZombie = new Zombie();
         Dog spotDog = new Dog();
-        Enemy LeBronJames = new LeBronJames();
+        LeBronJames leBronJames = new LeBronJames("Want a Sprite Cranberry?", "6 foot 8 inches", 230);
         System.out.println(greenOgre.name + " (HP: " + greenOgre.hp + " Damage: " + greenOgre.damage + ")");
         System.out.println(redOgre.name + " (HP: " + redOgre.hp + " Damage: " + redOgre.damage + ")");
         System.out.println(slowZombie.name + " (HP: " + slowZombie.hp + " Damage: " + slowZombie.damage + ", Speed: " + slowZombie.speed + ")");
         System.out.println(fastZombie.name + " (HP: " + fastZombie.hp + " Damage: " + fastZombie.damage + ", Speed: " + fastZombie.speed + ")");
         System.out.println(spotDog.name + " (HP: " + spotDog.hp + ", Damage: " + spotDog.damage + ")");
-        System.out.println(LeBronJames.name + " (HP: " + LeBronJames.hp + ", Damage: " + LeBronJames.damage + ", Height: "
-                + LeBronJames.height + ", Weight (in lbs): " + LeBronJames.weight + ", Description: " + LeBronJames.line +")");
+        System.out.println(leBronJames.name + " (HP: " + leBronJames.hp + ", Damage: " + leBronJames.damage + ", Height: "
+                + leBronJames.height + ", Weight (in lbs): " + leBronJames.weight + ", Description: " + leBronJames.line +")");
+
     }
 }
