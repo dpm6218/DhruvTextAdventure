@@ -17,5 +17,7 @@ public class Action {
         this.name = name;
         this.kwargs = kwargs;
     }
-    public String str() { return hotkey + ": " + name;}
+    public String str() {
+        return hotkey + ": " + name;}
+
 }

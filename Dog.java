@@ -1,5 +1,7 @@
 public class Dog extends Enemy{
-    public Dog(){
+    protected String breed;
+    public Dog(String breed){
         super("Dog", 20, 15);
+        this.breed = breed;
     }
 }
