@@ -1,3 +1,5 @@
+import java.awt.*;
+
 public class Main {
     public static void main(String[] args) {
         //Items LM1
@@ -47,5 +49,9 @@ public class Main {
         System.out.println(west.getHotkey() + ": " + west.getName());
         System.out.println(east.getHotkey() + ": " + east.getName());
         System.out.println(flee.getHotkey() + ": " + flee.getName());
+
+        //World Class/Map Class LM4
+        Point point = new Point(2,3);
+        MapTile map = new MapTile(1,3);
     }
 }
