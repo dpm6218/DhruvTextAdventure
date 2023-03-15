@@ -53,5 +53,7 @@ public class Main {
         //World Class/Map Class LM4
         Point point = new Point(2,3);
         MapTile map = new MapTile(1,3);
+        World world = new World();
+        world.load_tiles();
     }
 }
