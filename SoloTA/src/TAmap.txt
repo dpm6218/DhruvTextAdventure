@@ -1,0 +1,5 @@
+Office	Hallway	
+	ButlerHall	
+	Hallway	Kitchen
+Bedroom	Hallway	
+	FrontDoor	
