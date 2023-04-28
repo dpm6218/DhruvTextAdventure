@@ -1,5 +1,0 @@
- 	 	 	 	LeaveCaveRoom
-			OgreRoom	EmptyCavePath
- 	 	 	EmptyCavePath	  
- 	 	 	TreasureRoom	 
-OgreRoom	EmptyCavePath	StartingRoom	TreasureRoom	FindArrowRoom
