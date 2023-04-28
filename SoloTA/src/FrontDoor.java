@@ -11,5 +11,9 @@ public class FrontDoor extends MapTile{
             return defaulttext;
         }
     }
-    public void modify_player(Player player){}
+    public void modify_player(Player player){
+        if (Player.hasItem("Key")){
+            player.victory = true;
+        }
+    }
 }
